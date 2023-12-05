@@ -32,8 +32,10 @@
 ### Transform
 #### PackMode
 - Individual
-	可以独立操作xyz轴信息，主动选择将特定轴向信息写入到选定的通道中
-	如果使用了顶点色模式 `vCol` , 则需要同时将自动计算出的 `Pivot X Scale` 值输入到解压缩的计算过程中，Blender文件里有提供一个GeometryNode作为解压缩计算的演示
+
+可以独立操作xyz轴信息，主动选择将特定轴向信息写入到选定的通道中
+如果使用了顶点色模式 `vCol` , 则需要同时将自动计算出的 `Pivot X Scale` 值输入到解压缩的计算过程中，Blender文件里有提供一个GeometryNode作为解压缩计算的演示
+
 - AB Pack
 	- 只支持轴向在 `[-1,1]` 范围内的情况
 	- 只支持写入UV
