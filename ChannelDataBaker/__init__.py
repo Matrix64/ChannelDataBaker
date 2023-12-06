@@ -6,7 +6,7 @@ import bpy
 
 bl_info = {
     "name": "Channel Data Baker",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "author": "matrix64",
     "blender": (3, 50, 0),
     "location": "3D Viewport > Sidebar > Tool",
@@ -69,7 +69,7 @@ class TransformProperty(bpy.types.PropertyGroup):
                                               ('G', "G", ""),
                                               ('B', "B", ""),
                                               ('A', "A", "")])
-    TransformOrientation: bpy.props.EnumProperty(name="ChannelUV",
+    TransformOrientation: bpy.props.EnumProperty(name="Orientation",
                                       description="",
                                       items=[('Global', "Global", ""),
                                              ('Local', "Local", "")])
